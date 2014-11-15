@@ -1,5 +1,6 @@
 The MIT License
 
+Copyright © 2014–Concurrency Reliance Laboratory, http://www.cr.ie.u-ryukyu.ac.jp/
 Copyright © 2010–2011 Vadim Makeev, http://pepelsbey.net/
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,6 +25,7 @@ THE SOFTWARE.
 
 Лицензия MIT
 
+Copyright © 2014–Concurrency Reliance Laboratory, http://www.cr.ie.u-ryukyu.ac.jp/
 Copyright © 2010–2011 Вадим Макеев, http://pepelsbey.net/
 
 Данная лицензия разрешает лицам, получившим копию данного программного обеспечения
