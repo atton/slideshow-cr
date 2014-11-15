@@ -8,27 +8,18 @@
 	<meta name="generator" content="Slide Show (S9)">
 	<meta name="author" content="<%= @headers['author']%>">
 	<link rel="stylesheet" href="themes/ribbon/styles/style.css">
-	<style>
-		#Cover H2 {
-			color:#FFF;
-			text-align:center;
-			font-size:70px;
-			}
-	</style>
 </head>
 <body class="list">
 	<header class="caption">
 		<h1><%= @headers['title'] %></h1>
 		<p><%= @headers['author']%></p>
 	</header>
-	<div class="slide bg" id="Cover"><div>
+	<div class="slide cover" id="Cover"><div>
 		<section>
 			<header>
 				<h2><%= @headers['title'] %></h2>
+				<h3><%= @headers['author'] %></h3>
 			</header>
-			<% cover = @headers['cover'] == "- cover not found -" ? "cover.jpg" : @headers['cover'] %>
-			<img src="pictures/<%= cover %>" alt="">
-			<!-- © John Carey, http://fiftyfootshadows.net/ -->
 		</section>
 	</div></div>
 
@@ -49,7 +40,6 @@
 		To hide progress bar from entire presentation
 		just remove “progress” element.
 		-->
-	<div class="progress"><div></div></div>
 	<script src="scripts/script.js"></script>
 	<!-- Copyright © 2010–2011 Vadim Makeev, http://pepelsbey.net/ -->
 </body>

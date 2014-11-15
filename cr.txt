@@ -28,8 +28,8 @@ themes/ribbon/styles/style.css
 
 # graphics
 
-# default cover image
-pictures/cover.jpg
+# cr-logo
+pictures/logo.svg
 
 themes/ribbon/images/grid.png
 themes/ribbon/images/linen.png
