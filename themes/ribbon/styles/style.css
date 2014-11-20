@@ -183,10 +183,18 @@ BODY {
 	text-align:center;
 	font-size:84px;
 }
-.slide.cover H3 {
+.slide.cover H3#author {
 	color:#888;
 	text-align:right;
 	font-size:56px;
+	margin-top:24px;
+	margin-right:90px;
+}
+
+.slide.cover H3#profile {
+	color:#888;
+	text-align:right;
+	font-size:24px;
 	margin-right:90px;
 }
 

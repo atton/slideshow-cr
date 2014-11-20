@@ -2,16 +2,16 @@
 # - Shower by Vadim Makeev (aka pepelsbey); see https://github.com/pepelsbey/shower
 # - (Note: Template package still in development, Beta Vesion)
 #
-# Change as desired/needed 
+# Change as desired/needed
 #
 # Configured to use the following headers in slides.html.erb:
-# 
+#
 # author: Your Name Here
+# profile: Your Profile Here
 # title: Your Slide Show Title Here
-# cover: Your Slide Show Cover Image Here
 #
 # Questions? Comments?
-# Send them along to the Free Web Slide Show Alternatives (S5, S6, S9 And Friends) Forum/Mailing List. 
+# Send them along to the Free Web Slide Show Alternatives (S5, S6, S9 And Friends) Forum/Mailing List.
 # http://groups.google.com/group/webslideshow
 
 __file__.html slides.html.erb

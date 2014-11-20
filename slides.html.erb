@@ -18,7 +18,8 @@
 		<section>
 			<header>
 				<h2><%= @headers['title'] %></h2>
-				<h3><%= @headers['author'] %></h3>
+				<h3 id="author"><%= @headers['author'] %></h3>
+				<h3 id="profile"><%= @headers['profile'] %></h3>
 			</header>
 		</section>
 	</div></div>
@@ -36,10 +37,6 @@
 </div></div>
 <% end %>
 
-	<!--
-		To hide progress bar from entire presentation
-		just remove “progress” element.
-		-->
 	<script src="scripts/script.js"></script>
 	<!-- Copyright © 2010–2011 Vadim Makeev, http://pepelsbey.net/ -->
 </body>
