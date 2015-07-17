@@ -111,7 +111,7 @@
 
 	document.addEventListener('keydown', function (e) {
 		if (e.altKey || e.ctrlKey || e.metaKey) return;
-		
+
 		var current_slide_number = getCurrentSlideNumber();
 
 		switch (e.which) {
@@ -210,4 +210,18 @@
 		}
 	}, false);
 
+
 }());
+
+/* syntax highlighter to <pre><code></code></pre> */
+
+(function (){
+  var els = document.querySelectorAll('code');
+  for (var i = 0, el; el = els[i]; i++) {
+    if (!el.classList.contains('noprettyprint')) {
+      el.classList.add('prettyprint');
+    }
+  }
+  prettyPrint();
+}());
+

@@ -72,19 +72,6 @@ BODY {
 .slide EM {
 	font-style:italic;
 	}
-.slide KBD,
-.slide CODE {
-	padding:3px 8px;
-	-webkit-border-radius:8px;
-	-moz-border-radius:8px;
-	border-radius:8px;
-	background:#FAFAA2;
-	-webkit-tab-size:4;
-	-moz-tab-size:4;
-	-o-tab-size:4;
-	tab-size:4;
-	font-family:Consolas, 'Droid Sans Mono', monospace;
-	}
 
 /* Quote */
 .slide BLOCKQUOTE {
@@ -143,8 +130,6 @@ BODY {
 	}
 	.slide PRE CODE {
 		display:block;
-		padding:0;
-		background:none;
 		white-space:pre;
 		}
 	.slide PRE CODE:before {
@@ -153,8 +138,6 @@ BODY {
 		width:110px;
 		color:#BBB;
 		text-align:right;
-		counter-increment:code;
-		content:counter(code, decimal-leading-zero)'.';
 		}
 	.slide PRE MARK {
 		padding:3px 8px;

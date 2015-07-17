@@ -19,9 +19,11 @@ __file__.html slides.html.erb
 # scripts
 
 scripts/script.js
+scripts/prettify/prettify.js
 
 # styles
 
+scripts/prettify/prettify.css
 themes/ribbon/styles/fonts.css
 themes/ribbon/styles/reset.css
 themes/ribbon/styles/style.css
